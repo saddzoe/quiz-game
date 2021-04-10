@@ -19,12 +19,12 @@ def verify_guess(guess, answer):
 
 
 score = 0
-print("Guess the Movie quote")
-guess1 = input("I was born in the darkness, you were merely molded by it")
+print("Guess the Movie quote: ")\n
+guess1 = input("I was born in the darkness, you were merely molded by it: ")
 verify_guess(guess1, "The Dark Knight Rises")
-guess2 = input("How do you get fired on your day off")
+guess2 = input("How do you get fired on your day off: ")
 verify_guess(guess2, "Friday")
-guess3 = input("You need people like me so you can point your fingers and say, 'That's the bad guy.")
+guess3 = input("You need people like me so you can point your fingers and say, 'That's the bad guy.: ")
 verify_guess(guess3, "Scarface")
 
 print("Your Score is " + str(score))
